@@ -1,17 +1,20 @@
  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Merriweather:wght@300;400;700;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
-
- body {
-     font-family: 'Poppins', sans-serif;
-
- }
-
  * {
      margin: 0;
  }
 
- section {
+ body {
+     font-family: 'Poppins', sans-serif;
+     margin: auto;
+     padding: 0 5px;
      max-width: 1440px;
+ }
+
+
+
+ section {
+
      margin: 100px auto;
  }
 
@@ -179,207 +182,257 @@
  /*________________ Popular-tour section ends---------------- */
 
  /* _______________________ Destination section Starts______________________  */
- .destination-container{
-    max-width: 1440px;
-    border: 2px solid red;
-   
+ .destination-container {
+     max-width: 1440px;
+     border: 2px solid red;
+
 
  }
+
  /* .Destination-img-container{
     margin: 10px auto;
     padding: 10px auto;
  } */
  .top-section {
      text-align: center;
+     margin-bottom: 50px;
  }
 
- .destination-image1 {
-     display: grid;
-     /* column-gap: 30px; */
-     grid-template-columns: repeat(2, 1fr);
- }
-
- .destination-image2 {
-     display: grid;
-     /* column-gap: 30px; */
-     grid-template-columns: repeat(3, 1fr);
- }
-
- .img-container {
-     width: 100%;
-     position: relative;
-     object-fit: cover;
- }
-
- .image-center {
-     position: absolute;
-     display: block;
+ .desti-img-container {
      /* width: 100%; */
 
  }
 
+
+
+ .destination-image1 {
+     display: grid;
+     column-gap: 50px;
+     grid-template-columns: repeat(2, 1fr);
+     justify-items: center;
+ }
+
+ .destination-image2 {
+     display: grid;
+     column-gap: 30px;
+     grid-template-columns: repeat(3, 1fr);
+     justify-items: center;
+     margin: 50px 0;
+ }
+
+ .img-container {
+     position: relative;
+     width: 100%;
+     height: 100%;
+ }
+
+ .image-center {
+     width: 100%;
+     height: 100%;
+ }
+
+
  .image-name {
      position: absolute;
-     top: 35%;
-     left: 50%;
-     text-align: center;
-     transform: translateX(-150%);
+     top: 30%;
+     left: 40%;
      color: white;
      font-size: 25px;
      font-weight: 500;
+
  }
 
  /* __________________________ Destination section ends_____________________  */
 
  /* _______________________Why Choose Us section starts______________________  */
 
- .card-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin-top: 40px;
+ .card-container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+     margin-top: 40px;
  }
 
- .card >img{
-    width: 65px;
-    height: 65px;
-}
+ .card>img {
+     width: 65px;
+     height: 65px;
+ }
 
-.card-1{
-    border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.20);
-    
-    background: rgba(251, 181, 99, 0.05);
-    padding: 20px;
-}
-.card-2{
-    border-radius: 16px;
-    border: 1px solid rgba(41, 206, 246, 0.20);
-    padding: 20px;
-    background: rgba(41, 206, 246, 0.05);
-         
-}
+ .card-1 {
+     border-radius: 16px;
+     border: 1px solid rgba(251, 181, 99, 0.20);
 
-  /* _______________________Why Choose Us section ends______________________  */
+     background: rgba(251, 181, 99, 0.05);
+     padding: 20px;
+ }
 
-  /* <!-- _________________Discount Section starts_________________________ --> */
-.discount-container{
-    max-width: 1440px;
-    
-}
-.offer-card1{
-    background-image: url(../Images/Group\ 39.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 500px;
-    background-size: cover;
-    display: flex;
-   justify-content: end;
-   border-radius: 20px;
-   margin-top: 50px;
-  
+ .card-2 {
+     border-radius: 16px;
+     border: 1px solid rgba(41, 206, 246, 0.20);
+     padding: 20px;
+     background: rgba(41, 206, 246, 0.05);
 
-    
-}
-.offer-card2{
-    background-image: url(../Images/Group\ 40.png);
-    display: flex;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 500px;
-    background-size: cover;
-    display: flex;
-   justify-content: start;
-   border-radius: 20px;
-   margin-top: 50px;
-}
+ }
 
-.offer-card3{
-    background-image: url(../Images/Group\ 39.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 500px;
-    background-size: cover;
-    display: flex;
-   justify-content: end;
-   border-radius: 20px;
-   margin-top: 50px;
-}
+ /* _______________________Why Choose Us section ends______________________  */
 
-.offer-detail{
-    border-radius: 16px;
-border: 2px solid #FFF;
+ /* <!-- _________________Discount Section starts_________________________ --> */
+ .discount-container {
+     max-width: 1440px;
 
-background: rgba(255, 255, 255, 0.80);
+ }
 
-backdrop-filter: blur(2.5px);
-width: 579px;
-height: 389px;
-padding: 40px;
-margin: 30px 30px;
-}
-.offer-duration{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 05px;
-    margin-bottom: 20px;
-}
-
-.package-btn{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin-top: 50px;
-
-}
-  /* <!-- _________________Discount Section endss_________________________ --> */
-  /* ___________________Perfect placle section starts----------------- */
-
-iframe{
-    border-radius: 20px;
-}
-
-/* ___________________Perfect placle section ends----------------- */
+ .offer-card1 {
+     background-image: url(../Images/Group\ 39.png);
+     background-repeat: no-repeat;
+     width: 100%;
+     min-height: 500px;
+     background-size: cover;
+     display: flex;
+     justify-content: end;
+     border-radius: 20px;
+     margin-top: 50px;
 
 
-/* ______________________News Letter Section starts_____________________________ */
 
-.Newsletter-Container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.Newsletter-description{
-    display: flex;
-    flex-direction: column;
-    border-radius: 16px;
-    border: 1px solid #FF5400;
-    padding: 40px;
-}
+ }
 
-/* _________________________News Letter section ends__________________________ */
+ .offer-card2 {
+     background-image: url(../Images/Group\ 40.png);
+     display: flex;
+     background-repeat: no-repeat;
+     width: 100%;
+     min-height: 500px;
+     background-size: cover;
+     display: flex;
+     justify-content: start;
+     border-radius: 20px;
+     margin-top: 50px;
+ }
 
-/* footer section----------------- */
-.footer-container{
-    max-width: 1440px;
-   height:502px ;
-   background: rgba(19, 19, 24, 0.05);
-   border-radius: 10px;
+ .offer-card3 {
+     background-image: url(../Images/Group\ 39.png);
+     background-repeat: no-repeat;
+     width: 100%;
+     min-height: 500px;
+     background-size: cover;
+     display: flex;
+     justify-content: end;
+     border-radius: 20px;
+     margin-top: 50px;
+ }
 
-}
-.social-icon{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    margin-top: 40px;
-}
+ .offer-detail {
+     border-radius: 16px;
+     border: 2px solid #FFF;
 
-.logo-section{
-    display: flex;
-    align-items: center;
-   justify-content: center;
-  
-}
+     background: rgba(255, 255, 255, 0.80);
+
+     backdrop-filter: blur(2.5px);
+     width: 579px;
+     height: 389px;
+     padding: 40px;
+     margin: 30px 30px;
+ }
+
+ .offer-duration {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     gap: 05px;
+     margin-bottom: 20px;
+ }
+
+ .package-btn {
+     display: flex;
+     justify-items: center;
+     align-items: center;
+     margin-top: 50px;
+
+ }
+
+ /* <!-- _________________Discount Section endss_________________________ --> */
+ /* ___________________Perfect placle section starts----------------- */
+
+ iframe {
+     border-radius: 20px;
+ }
+
+ /* ___________________Perfect placle section ends----------------- */
+
+
+ /* ______________________News Letter Section starts_____________________________ */
+
+ .Newsletter-Container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .Newsletter-description {
+     display: flex;
+     flex-direction: column;
+     border-radius: 16px;
+     border: 1px solid #FF5400;
+     padding: 40px;
+ }
+
+ .popular-save-area {
+     position: relative;
+ }
+
+ .save-area {
+     background-color: #FF5400;
+     display: inline-block;
+     padding: 10px 20px;
+     border-radius: 10px;
+     text-align: center;
+     position: absolute;
+     bottom: 10%;
+     right: 5%;
+     transform: rotate(-45deg);
+     /* Rotate the save-area text by -45 degrees */
+     transform-origin: 0 0;
+
+ }
+
+
+
+ .save-area p {
+
+     margin-top: 0px;
+     color: white;
+     font-weight: bold;
+
+ }
+
+ .save-save-tag {
+     font-size: 25px;
+ }
+
+ /* _________________________News Letter section ends__________________________ */
+
+ /* footer section----------------- */
+ .footer-container {
+     max-width: 1440px;
+     height: 502px;
+     background: rgba(19, 19, 24, 0.05);
+     border-radius: 10px;
+
+ }
+
+ .social-icon {
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+     align-items: center;
+     height: 40px;
+     margin-top: 40px;
+ }
+
+ .logo-section {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
