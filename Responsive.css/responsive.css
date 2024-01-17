@@ -1,23 +1,144 @@
-@media screen  and (max-width:576px) {
-    
+@media screen and (max-width:576px) {
+
     .menu-list {
         display: none;
     }
 
-    
+
 }
-@media screen  and (max-width:576px) {
+
+@media screen and (max-width:576px) {
+
+    .menu-list {
+        display: none;
+    }
+
+    .mobile-bars {
+        display: block;
+    }
+
+    .nav-container span {
+        font-size: 32px;
+        color: #FF5400;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    .logo p {
+        margin-top: 0px
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+
     .banner-input-container {
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
-        /* height: 80px; */
-        /* width: 70%; */
-        /* display: flex; */
-        /* justify-content: space-around; */
+        height: auto;
+        width: 70%;
+        display: block;
+        justify-content: space-around;
         margin: 10px auto;
         padding: 20px 20px 0px 20px;
-   
-      
     }
-}
 
+    .banner-input-container input {
+        margin: 5px 0;
+    }
+
+
+    .popular-tour-container {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .popular-tour-description {
+        width: 100%;
+    }
+
+    .popular-tour-img {
+        width: auto;
+        padding-top: 50px;
+    }
+
+    .popular-tour-img img {
+        width: 100%;
+    }
+
+
+    .banner-input-container {
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        margin: 10px auto;
+        padding: 20px 20px 0px 20px;
+
+    }
+
+    .popular-tour-img {
+        width: 100%;
+        /* border: 2px solid blue ; */
+        margin: 0px 0px 0px 0px;
+        padding-left: 0px;
+        object-fit: cover;
+
+
+    }
+
+    .destination-image1 {
+        display: grid;
+        row-gap: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .destination-image2 {
+        display: grid;
+        row-gap: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin: 50px 0;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .offer-detail {
+        width: auto;
+        height: auto;
+        padding: 20px;
+        margin: 10px 10px;
+    }
+
+    .offer-card1,
+    .offer-card2,
+    .offer-card3 {
+        padding: 30px;
+    }
+
+    .youtube-video {
+
+        width: 100%;
+        height: 300px;
+    }
+
+    .Newsletter-Container {
+        display: block;
+
+        align-items: center;
+    }
+
+
+
+}

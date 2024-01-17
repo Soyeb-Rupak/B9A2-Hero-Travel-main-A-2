@@ -63,13 +63,14 @@
  nav {
      min-height: 20px;
 
-     padding: 10px 50px;
+     padding: 10px 5px;
 
  }
 
  .logo {
      display: flex;
      align-items: center;
+     align-content: center;
      gap: 5px;
  }
 
@@ -89,6 +90,10 @@
      margin-right: 10px;
      font: 20px;
      font-weight: 400;
+ }
+
+ .mobile-bars {
+     display: none;
  }
 
  /* ------------------nav style ends here----------*/
@@ -166,8 +171,6 @@
      margin: 0px 0px 0px 50px;
      padding-left: 100px;
      object-fit: cover;
-
-
  }
 
  .popular-tour-container {
@@ -184,7 +187,7 @@
  /* _______________________ Destination section Starts______________________  */
  .destination-container {
      max-width: 1440px;
-     border: 2px solid red;
+
 
 
  }
@@ -285,8 +288,8 @@
  .offer-card1 {
      background-image: url(../Images/Group\ 39.png);
      background-repeat: no-repeat;
-     width: 100%;
-     min-height: 500px;
+     /* width: 100%; */
+     /* min-height: 500px; */
      background-size: cover;
      display: flex;
      justify-content: end;
@@ -301,8 +304,6 @@
      background-image: url(../Images/Group\ 40.png);
      display: flex;
      background-repeat: no-repeat;
-     width: 100%;
-     min-height: 500px;
      background-size: cover;
      display: flex;
      justify-content: start;
@@ -313,8 +314,6 @@
  .offer-card3 {
      background-image: url(../Images/Group\ 39.png);
      background-repeat: no-repeat;
-     width: 100%;
-     min-height: 500px;
      background-size: cover;
      display: flex;
      justify-content: end;
@@ -356,6 +355,12 @@
 
  iframe {
      border-radius: 20px;
+ }
+
+ .youtube-video {
+
+     width: 610px;
+     height: 423px;
  }
 
  /* ___________________Perfect placle section ends----------------- */
@@ -436,3 +441,8 @@
      justify-content: center;
 
  }
+
+ .read-more-button {
+     margin-top: 0;
+ }
+ 
