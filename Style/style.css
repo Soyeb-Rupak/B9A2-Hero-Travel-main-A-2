@@ -261,3 +261,125 @@
 }
 
   /* _______________________Why Choose Us section ends______________________  */
+
+  /* <!-- _________________Discount Section starts_________________________ --> */
+.discount-container{
+    max-width: 1440px;
+    
+}
+.offer-card1{
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    display: flex;
+   justify-content: end;
+   border-radius: 20px;
+   margin-top: 50px;
+  
+
+    
+}
+.offer-card2{
+    background-image: url(../Images/Group\ 40.png);
+    display: flex;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    display: flex;
+   justify-content: start;
+   border-radius: 20px;
+   margin-top: 50px;
+}
+
+.offer-card3{
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    display: flex;
+   justify-content: end;
+   border-radius: 20px;
+   margin-top: 50px;
+}
+
+.offer-detail{
+    border-radius: 16px;
+border: 2px solid #FFF;
+
+background: rgba(255, 255, 255, 0.80);
+
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 389px;
+padding: 40px;
+margin: 30px 30px;
+}
+.offer-duration{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 05px;
+    margin-bottom: 20px;
+}
+
+.package-btn{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+  /* <!-- _________________Discount Section endss_________________________ --> */
+  /* ___________________Perfect placle section starts----------------- */
+
+iframe{
+    border-radius: 20px;
+}
+
+/* ___________________Perfect placle section ends----------------- */
+
+
+/* ______________________News Letter Section starts_____________________________ */
+
+.Newsletter-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Newsletter-description{
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+/* _________________________News Letter section ends__________________________ */
+
+/* footer section----------------- */
+.footer-container{
+    max-width: 1440px;
+   height:502px ;
+   background: rgba(19, 19, 24, 0.05);
+   border-radius: 10px;
+
+}
+.social-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  
+}
